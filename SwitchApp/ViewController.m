@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Onchanged:(id)sender {
+    if ([sender isOn]) {
+        //NSLog(@"switch is on");
+        self.UILabel.text = @"ON";
+    } else {
+        //NSLog(@"switch is off");
+        self.UILabel.text = @"OFF";
+    }
+}
 @end
