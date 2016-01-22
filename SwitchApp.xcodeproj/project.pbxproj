@@ -13,6 +13,9 @@
 		ECA294F91C512D0B0091B72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA294F71C512D0B0091B72F /* Main.storyboard */; };
 		ECA294FB1C512D0B0091B72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA294FA1C512D0B0091B72F /* Assets.xcassets */; };
 		ECA294FE1C512D0B0091B72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA294FC1C512D0B0091B72F /* LaunchScreen.storyboard */; };
+		ECE92C331C523C7B001F05A2 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE92C321C523C7B001F05A2 /* UserViewController.m */; };
+		ECE92C371C523F30001F05A2 /* VehiculeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE92C351C523F30001F05A2 /* VehiculeViewController.m */; };
+		ECE92C381C523F30001F05A2 /* VehiculeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE92C361C523F30001F05A2 /* VehiculeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		ECA294FA1C512D0B0091B72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA294FD1C512D0B0091B72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA294FF1C512D0B0091B72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE92C311C523C7B001F05A2 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = ../UserViewController.h; sourceTree = "<group>"; };
+		ECE92C321C523C7B001F05A2 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = ../UserViewController.m; sourceTree = "<group>"; };
+		ECE92C341C523F30001F05A2 /* VehiculeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehiculeViewController.h; sourceTree = "<group>"; };
+		ECE92C351C523F30001F05A2 /* VehiculeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehiculeViewController.m; sourceTree = "<group>"; };
+		ECE92C361C523F30001F05A2 /* VehiculeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehiculeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		ECA294ED1C512D0B0091B72F /* SwitchApp */ = {
 			isa = PBXGroup;
 			children = (
+				ECE92C311C523C7B001F05A2 /* UserViewController.h */,
+				ECE92C321C523C7B001F05A2 /* UserViewController.m */,
 				ECA294F11C512D0B0091B72F /* AppDelegate.h */,
 				ECA294F21C512D0B0091B72F /* AppDelegate.m */,
 				ECA294F41C512D0B0091B72F /* ViewController.h */,
@@ -67,6 +77,9 @@
 				ECA294FC1C512D0B0091B72F /* LaunchScreen.storyboard */,
 				ECA294FF1C512D0B0091B72F /* Info.plist */,
 				ECA294EE1C512D0B0091B72F /* Supporting Files */,
+				ECE92C341C523F30001F05A2 /* VehiculeViewController.h */,
+				ECE92C351C523F30001F05A2 /* VehiculeViewController.m */,
+				ECE92C361C523F30001F05A2 /* VehiculeViewController.xib */,
 			);
 			path = SwitchApp;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 				ECA294FE1C512D0B0091B72F /* LaunchScreen.storyboard in Resources */,
 				ECA294FB1C512D0B0091B72F /* Assets.xcassets in Resources */,
 				ECA294F91C512D0B0091B72F /* Main.storyboard in Resources */,
+				ECE92C381C523F30001F05A2 /* VehiculeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE92C371C523F30001F05A2 /* VehiculeViewController.m in Sources */,
 				ECA294F61C512D0B0091B72F /* ViewController.m in Sources */,
+				ECE92C331C523C7B001F05A2 /* UserViewController.m in Sources */,
 				ECA294F31C512D0B0091B72F /* AppDelegate.m in Sources */,
 				ECA294F01C512D0B0091B72F /* main.m in Sources */,
 			);
@@ -298,6 +314,7 @@
 				ECA295041C512D0B0091B72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
